@@ -11,7 +11,7 @@ A modern, production-ready email verification flow using Auth0 authentication.
 - **Error Handling**: Comprehensive error states and user feedback
 - **Resend Functionality**: Users can request new verification emails
 
-## Setup Instructions
+## Setup Instruction
 
 ### 1. Create Auth0 Account
 
@@ -30,16 +30,19 @@ A modern, production-ready email verification flow using Auth0 authentication.
 In your Auth0 application settings:
 
 **Allowed Callback URLs:**
+
 ```
 http://localhost:5173, https://your-domain.com
 ```
 
 **Allowed Logout URLs:**
+
 ```
 http://localhost:5173, https://your-domain.com
 ```
 
 **Allowed Web Origins:**
+
 ```
 http://localhost:5173, https://your-domain.com
 ```
